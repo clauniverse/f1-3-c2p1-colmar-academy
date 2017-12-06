@@ -1,0 +1,501 @@
+html{
+  font-family: Helvetica;
+}
+
+body {
+  width: 100%;
+}
+/*header*/
+header {
+  display: flex;
+  justify-content: space-between;
+  margin: 24px;
+}
+
+section {
+  padding: 24px;
+}
+
+.logo {
+  display: flex;
+}
+
+.logo img {
+  height: 100%;
+  width: auto;
+}
+
+.logo {
+  padding-top: 0.4rem;
+  padding-left: 0.5rem;
+  font-size: 1.2rem;
+  color: #0f0f0f;
+}
+
+.logo span {
+  color: #a9a9a9;
+}
+
+.mobile-nav {
+  display: none;
+}
+.bold {
+  font-weight: 600;
+  color: #4c4c4c;
+}
+/* navigation */
+nav a {
+  margin-right: 16px;
+  text-decoration: none;
+  color: Gray;
+}
+
+nav a:hover {
+  color: blue;
+}
+
+/*  banner */
+.top {
+  display: flex;
+  background-color: #E0E0E0;
+  justify-content: space-between;
+}
+
+.banner {
+  width: 60%;
+  padding: 32px 24px;
+}
+
+.banner img {
+  width: 100%;
+  height: auto;
+}
+
+.info {
+  position: relative;
+  color: #3d3d3d;
+  font-family: 'Roboto Condensed', sans-serif;
+  line-height: 1.3;
+  width: 40%;
+  align-self: center;
+  margin-left: 24px;
+}
+
+.info h2 {
+  font-size: 2.8rem;
+  font-weight: 900;
+  padding-bottom: 18px;
+}
+
+.info p{
+  font-size: 1.3rem;
+  font-weight: 600;
+  font-family: 'Roboto', sans-serif;
+  padding-bottom: 18px;
+}
+
+.info a {
+  text-decoration: none;
+  color: white;
+}
+
+.info h3 {
+  background-color: #383838;
+  padding: 8px 0;
+  text-align: center;
+  width: 80%;
+}
+
+.stories {
+  display: flex;
+  background-color: #F0F0F0;
+}
+
+.main-story {
+  padding: 32px 24px;
+  width: 60%;
+}
+
+.main-story img {
+  width: 90%;
+}
+
+.main-story p {
+  width: 80%;
+  color: #383838;
+  line-height: 1.3;
+}
+
+.main-story h2 {
+  font-weight: 800;
+  font-size: 1.5rem;
+  padding:32px 0;
+  color: #202020;
+}
+
+/* news stories */
+.side-stories {
+  width: 40%;
+  padding: 32px 24px;
+  height: auto;
+}
+
+.story {
+  display: flex;
+  line-height: 2;
+  width: 100%;
+}
+
+.side-image {
+  width: 35%;
+}
+
+.side-image img {
+  width: 100%;
+}
+
+.mobile-image {
+  display: none;
+}
+
+.data {
+  padding-left: 16px;
+  width: 65%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.data h2 {
+    font-weight: 600;
+    font-size: 1rem;
+    color: #202020;
+      padding-top: 8px;
+}
+
+.data a {
+  text-decoration: none;
+  color: #3333FF;
+
+}
+
+#dark {
+  background-color: lightgray;
+}
+
+/*learning */
+
+.learning {
+  padding: 32px 72px;
+  background-color: #E0E0E0;
+}
+
+.learning h2 {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 800;
+  padding: 32px 0;
+}
+
+.blocks-frame {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.block {
+  width: 30%;
+  margin-right: 32px;
+  background-color: white;
+  margin-bottom: 32px;
+}
+
+.block img {
+  width: 100%;
+  height: auto;
+}
+
+.block-data {
+  padding-left: 16px;
+  line-height: 1.8;
+}
+
+.block-data h3 {
+  font-weight: 600;
+  padding-top: 16px;
+}
+
+.block-data span {
+  padding: 8px 0;
+}
+
+/* thesis */
+.thesis {
+  background-color: #F0F0F0;
+}
+
+.thesis h2 {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 800;
+  padding: 32px 0;
+  flex-direction: column;
+  display: block;
+}
+
+.container {
+  display: flex;
+}
+
+.urban {
+  width: 60%;
+  padding: 32px 24px;
+}
+
+.side-urban {
+  width: 40%;
+  padding: 32px 24px;
+}
+
+video {
+  width: 100%;
+}
+
+.data-video h2 {
+  marging-bottom: 8px;
+  text-align: left;
+  font-size: 1.3rem;
+}
+
+.side-image {
+  width: 35%;
+  height: auto;
+  padding: 16px;
+}
+
+.data-urban {
+  width: 65%;
+}
+
+.data-urban h3 {
+  font-weight: 600;
+  font-size: 1.4rem;
+  margin-bottom: 15px;
+  padding-top: 25px;
+}
+
+.data-urban h3,
+.data-urban span {
+    text-align: left;
+    line-height: 1.6;
+}
+/* footer */
+footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px 24px;
+  background-color: #F0F0F0;
+  border-top: 1px solid #BEBEBE;
+  color: #909090;
+}
+
+footer a {
+  text-decoration: none;
+  color: #909090;
+}
+
+@media only screen and (max-width: 480px){
+
+/* header */
+.logo,
+nav {
+  display: none;
+}
+
+.mobile-nav {
+  display: flex;
+}
+
+.mobile-logo {
+    margin: 0 54px 0 24px;
+}
+
+.mobile-nav a{
+  padding-right: 64px;
+}
+
+header {
+  max-height: 64px;
+}
+
+/* banner */
+.top {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+}
+
+.banner {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  background-size: cover;
+}
+
+.info {
+  padding: 32px 16px;
+  color: #3d3d3d;
+  font-family: 'Roboto Condensed', sans-serif;
+  line-height: 1.4;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.info h2 {
+  font-size: 2.2rem;
+  font-weight: 900;
+  padding-bottom: 18px;
+  margin: 0 auto;
+}
+
+.info h3 {
+  width: 100%;
+}
+
+.info p{
+  font-size: 1.3rem;
+  font-weight: 600;
+  font-family: 'Roboto', sans-serif;
+  padding-bottom: 18px;
+  width: 100%;
+}
+
+.main-story {
+  display: none;
+}
+
+/* news stories */
+.side-stories {
+  width: 100%;
+  padding: 16px;
+}
+
+.story {
+  display: flex;
+  flex-direction: column;
+  line-height: 2;
+  width: 100%;
+}
+
+.side-image {
+  width: 100%;
+}
+
+.image{
+  display: none;
+}
+
+.mobile-image {
+  display: block;
+}
+
+.mobile-image img {
+  width: 100%;
+  height: auto;
+}
+
+.data {
+  /*padding: 32px 16px;*/
+  width: 100%;
+  padding-bottom: 64px;
+}
+
+.data h2,
+.data span,
+.data a  {
+  padding-left: 16px;
+}
+
+.data a {
+  text-decoration: none;
+  color: #3333FF;
+}
+
+#dark {
+  background-color: transparent;
+}
+
+/* Learning */
+.learning {
+  padding: 0 0 32px 0;
+  background-color: #F0F0F0;
+  border-top: 1px solid #E2E0DE;
+}
+
+.learning h2 {
+  font-size: 2.5rem;
+  font-weight: 800;
+  padding: 32px 0;
+}
+
+.blocks-frame {
+  display: flex;
+  flex-direction: column;
+  margin: 0 16px;
+}
+
+.block {
+  width: 100%;
+  color: #56514B;
+  background-color: #E2E0DE;
+  margin-bottom: 8px;
+}
+
+.block-data h3 {
+  padding: 16px 0 24px 16px;
+  margin: 0 16px;
+  font-size: 1.5rem;
+}
+
+.block img {
+  display: none;
+}
+
+.block-data span,
+.block-data p {
+  display: none;
+}
+
+/* thesis */
+.thesis {
+  border-top: 1px solid #E2E0E0;
+}
+
+.thesis h2 {
+  font-size: 2.5rem;
+  margin: 32px 0 16px 0;
+}
+
+.urban {
+  width: 100%;
+  padding: 0;
+  margin-bottom: 24px;
+}
+
+.data-video {
+  display: none;
+}
+
+.side-urban {
+  display: none;
+}
+
+/* footer */
+
+.copyright {
+  padding: 16px 0;
+}
+
+.footer-menu {
+  display: none;
+}
+}
